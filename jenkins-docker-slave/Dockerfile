@@ -12,3 +12,4 @@ RUN apt-get install libsfml-dev openjdk-6-jdk build-essential qt5-qmake -y
 RUN echo "jenkins:jenkins" | chpasswd
 RUN apt-get clean
 RUN echo 'debconf debconf/frontend select Dialog' | debconf-set-selections
+#
